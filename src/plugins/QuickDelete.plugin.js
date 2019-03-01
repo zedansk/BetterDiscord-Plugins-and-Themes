@@ -78,5 +78,23 @@ QuickDelete.prototype.stop = function() {
 };
 
 QuickDelete.prototype.update = function() {};
+<<<<<<< HEAD
+=======
+QuickDelete.prototype.getName = function() {
+    return "QuickDelete";
+};
+
+QuickDelete.prototype.getDescription = function() {
+    return "Adds a button next to the options button to quick delete a message.";
+};
+
+QuickDelete.prototype.getVersion = function() {
+    return "1.1";
+};
+
+QuickDelete.prototype.getAuthor = function() {
+    return "confuseh";
+};
+>>>>>>> origin/master
 
 try{exports.QuickDelete = QuickDelete;}catch(e){console.warn('Using old version, not exporting functions.');}
