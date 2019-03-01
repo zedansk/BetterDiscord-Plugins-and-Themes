@@ -6,7 +6,6 @@ BetterAPI = function() {
 	this.getAuthor = function(){ return "Bluscream"; }
 };
 BetterAPI.prototype.load = function() {
-<<<<<<< HEAD
 	var source;var debug = false;
 	if(debug){
 		source = "https://raw.githubusercontent.com/Bluscream/BetterDiscord-Plugins-and-Themes/indev/dist/BetterAPI.js";
@@ -20,12 +19,6 @@ BetterAPI.prototype.update = function() {};
 BetterAPI.prototype.observer = function(e) {
 	BetterAPI.loadCredits();
 };
-=======
-	$("<script/>",{ type: "text/javascript", src: "https://cdn.rawgit.com/Bluscream/BetterDiscord-Plugins-and-Themes/indev/dist/BetterAPI.min.js", id: "BetterAPI" }).appendTo($("head"));
-};
-BetterAPI.prototype.start = function() {};
-BetterAPI.prototype.update = function() {};
->>>>>>> origin/master
 BetterAPI.prototype.onMessage = function() {};
 BetterAPI.prototype.getSettingsPanel = function() {
 	$('#bdpmakebak').livequery(function(){
@@ -53,8 +46,4 @@ BetterAPI.prototype.onSwitch = function() {
 };
 BetterAPI.prototype.stop = function() {};
 BetterAPI.prototype.unload = function() {};
-<<<<<<< HEAD
 try{exports.BetterAPI = BetterAPI;}catch(e){console.warn('Using old version, not exporting functions.');}
-=======
-try{exports.BetterAPI = BetterAPI;}catch(e){console.warn('Using old version, not exporting functions.');}
->>>>>>> origin/master
